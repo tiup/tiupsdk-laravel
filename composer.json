@@ -1,0 +1,12 @@
+{
+    "name": "tiup/tiupsdk-laravel",
+    "description": "laravel tiup sdk",
+    "require": {
+        "tiup/tiupsdk":"0.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tiup\\LaravelTiupSdk\\": "src/LaravelTiupSdk"
+        }
+    }
+}
