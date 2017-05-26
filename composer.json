@@ -8,5 +8,6 @@
         "psr-4": {
             "Tiup\\LaravelTiupSdk\\": "src/LaravelTiupSdk"
         }
-    }
+    },
+    "minimum-stability":"stable"
 }
