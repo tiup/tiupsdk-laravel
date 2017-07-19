@@ -34,7 +34,8 @@ class LaravelTiupSdkServiceProvider extends ServiceProvider
         // Main Service
         $this->app->bind('Tiup\LaravelTiupSdk\LaravelTiupSdk', function ($app) {
             $config = $app['config']->get('laravel-tiup-sdk.tiup_config');
-            return new Tiup\Tiup($config);
+            $cache = $app->make('cache');
+            return new Tiup\Tiup($config, $cache);
         });
     }
 }
