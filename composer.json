@@ -4,7 +4,7 @@
     "type": "library",
     "license": "TiUP",
     "require": {
-        "tiup/tiupsdk":"0.2"
+        "tiup/tiupsdk":"0.3"
     },
     "autoload": {
         "psr-4": {
